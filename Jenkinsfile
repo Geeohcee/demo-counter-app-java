@@ -9,8 +9,9 @@ pipeline{
             steps{
                 
                 script{
-                    
-                    git branch: 'main', url: 'https://github.com/Geeohcee/demo-counter-app-java.git'
+
+                    git 'https://github.com/Geeohcee/demo-counter-app-java.git'
+                    // git branch: 'main', url: 'https://github.com/Geeohcee/demo-counter-app-java.git'
                 }
             }
         }
